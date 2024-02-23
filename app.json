@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Innings2WebView",
-    "slug": "Innings2WebView",
+    "name": "Innings2Books",
+    "slug": "Innings2Books",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,24 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bharat_34.Innings2WebView"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8267ed47-4d1b-462f-9c26-9e853f11a240"
+      }
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "bharat_34" 
+        }
+      ]
+    ]
   }
 }
