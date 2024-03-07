@@ -30,9 +30,13 @@ export default function App() {
       <View style={{ width: '100%', height: '100%', padding: 8 }}>
         <WebView source={{ uri: urlToLoad }} onLoad={() => console.log('url loaded!')} />
       </View>
-      <StatusBar backgroundColor='default'
-      StatusBar style='dark-content'  />
-
+      {Platform.OS === 'android' && (
+        <StatusBar
+          backgroundColor='default'
+          barStyle='dark-content'
+        />
+      )}
+      {Platform.OS === 'ios' && <StatusBar style='dark' />}
     </View>
   );
 }
