@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { StyleSheet, Platform, View } from 'react-native';
 import { WebView } from 'react-native-webview';
 import * as Updates from 'expo-updates';
+import { StatusBar } from 'expo-status-bar';
 
 export default function App() {
   async function onFetchUpdateAsync() {
@@ -29,6 +30,9 @@ export default function App() {
       <View style={{ width: '100%', height: '100%', padding: 8 }}>
         <WebView source={{ uri: urlToLoad }} onLoad={() => console.log('url loaded!')} />
       </View>
+      <StatusBar backgroundColor='default'
+      StatusBar style='dark-content'  />
+
     </View>
   );
 }
