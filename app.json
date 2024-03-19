@@ -4,7 +4,7 @@
     "slug": "Innings2WebView",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.png",
     "userInterfaceStyle": "auto",
     "splash": {
       "image": "./assets/splash.png",
@@ -15,12 +15,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bharatinnings2.Innings2WebView"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#ffffff",
+        "googleServicesFile": "./google-services.json"
+
       },
       "package": "com.bharat_34.Innings2WebView"
     },
@@ -36,7 +39,7 @@
       [
         "expo-updates",
         {
-          "username": "bharat_34" 
+          "username": "bharat_34"
         }
       ]
     ]
