@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "644108055340",
+    "project_id": "innings2-c244a",
+    "storage_bucket": "innings2-c244a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644108055340:android:06845ab6add44bd40ab289",
+        "android_client_info": {
+          "package_name": "com.bharat_34.Innings2WebView"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5UxUXTvzXbPMdEueHonDsHa3DC0S5TnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

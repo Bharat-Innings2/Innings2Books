@@ -16,6 +16,7 @@
     ],
     "ios": {
       "supportsTablet": true,
+      "googleServicesFile": "./GoogleService-Info.plist",
       "bundleIdentifier": "com.bharatinnings2.Innings2WebView"
     },
     "android": {
@@ -36,11 +37,14 @@
       }
     },
     "plugins": [
+      "@react-native-firebase/app",
+      
       [
         "expo-updates",
         {
           "username": "bharat_34"
         }
+        
       ]
     ]
   }
